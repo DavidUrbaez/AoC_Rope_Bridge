@@ -2,8 +2,8 @@ var scl = 20;
 var knots = [];
 var rope_len = 9;
 var stop = false;
-var dx = 1;
-var dy = 0;
+var dx = 0;
+var dy = 1;
 
 function setup() {
     createCanvas(400, 400);
