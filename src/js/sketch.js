@@ -6,7 +6,7 @@ var dx = 1;
 var dy = 0;
 
 function setup() {
-    createCanvas(600, 600);
+    createCanvas(400, 400);
     head = new Knot(0.5);
     for (let i = 0; i < rope_len; i++) {
         knots[i] = new Knot((0.5) * (i / rope_len) + 0.5);
