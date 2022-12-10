@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: rgb(80, 80, 80);
+    height: 100%;
+    margin: 0;
+}
+
+canvas {
+    display: block;
+}
+
+.outside {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+#sketch-holder {
+    width: 480;
+    position: relative;
+    border: 30px solid rgb(7, 35, 89);
+    border-radius: 2%;
+    box-shadow: 20px 20px #333333;
+}
+
+nav {
+    display: flex;
+    background-color: rgb(27, 27, 34);
+    /* padding: 30px; */
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav a.name {
+    color: rgb(24 246 33);
+    font-size: 30px;
+    text-decoration: none;
+    padding: 30px 30px;
+}
+
+nav a.link {
+    color: rgb(255 255 255);
+    text-decoration: none;
+    padding: 20px 30px;
+    font-size: 20px;
+    font-family: Tahoma;
+}
+
+nav a.link:hover {
+    color: rgb(1 126 7);
+    text-decoration: none;
+    font-size: 20px;
+    background-color: rgb(34, 34, 43);
+    border-radius: 5%;
+}
+
+div.line {
+    margin-left: 20px;
+    width: 2px;
+    height: 60px;
+    border: black;
+    background-color: white;
+}
+
+footer {
+    display: flex;
+    background-color: rgb(31, 31, 39);
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+    /* Height of the footer*/
+    height: 50px;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+footer div {
+    font-family: serif;
+    font-size: 16px;
+    color: white;
+    padding: 15px 50px;
+}
+
+div.content {
+    color: white;
+}

@@ -1,0 +1,9 @@
+html,
+body {
+    background-color: #06061b;
+}
+
+main {
+    display: grid;
+    place-items: center;
+}
